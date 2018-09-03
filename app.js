@@ -1,4 +1,5 @@
 var fs = require('fs');
+var rp = require('request-promise');
 var Spotify = require('node-spotify-api');
 
 var spotify = new Spotify({
