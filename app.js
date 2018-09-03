@@ -16,13 +16,13 @@ spotify
     console.log(err);
   });
 
-  spotify
+spotify
   .request('https://api.spotify.com/v1/tracks/7yCPwWs66K8Ba5lFuU2bcx')
   .then((data) => {
-    console.log(data); 
+    console.log(data);
   })
   .catch((err) => {
-    console.error('Error occurred: ' + err); 
+    console.error('Error occurred: ' + err);
   });
 
   /*
@@ -119,4 +119,4 @@ Add a `README.md` to your repository describing the project. Here are some resou
 * [Mastering Markdown](https://guides.github.com/features/mastering-markdown/)
 
 - - -
-  */ 
+  */
