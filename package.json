@@ -1,0 +1,24 @@
+{
+  "name": "nodeliribot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dcryptOG/nodeLiriBot.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dcryptOG/nodeLiriBot/issues"
+  },
+  "homepage": "https://github.com/dcryptOG/nodeLiriBot#readme",
+  "dependencies": {
+    "dotenv": "^6.0.0",
+    "node-spotify-api": "^1.0.7",
+    "request": "^2.88.0"
+  }
+}
